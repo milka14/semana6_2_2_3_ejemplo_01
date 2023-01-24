@@ -18,7 +18,6 @@ data_01 = {"nombre": "Luis", "apellido": "Valencia",
 # coleccion.insert_one(data_01)
 
 # proceso que agrega una lista de documentos
-
 lista = [
 {"nombre": "José", "apellido": "Medina", "nacionalidad":"ecuatoriana",
 "numero_publicaciones": 90},
