@@ -6,8 +6,8 @@ from enlace_base import client
 
 # se obtiene la colección general (base de datos)
 
-db = client.ejemploMongo001
-coleccion = db.autores
+db = client.UNO
+coleccion = db.Autores
 
 # conjunto de datos a guardar en la colección
 # importante, aquí se usa la estructura de Python denominada diccionario
@@ -15,7 +15,7 @@ coleccion = db.autores
 data_01 = {"nombre": "Luis", "apellido": "Valencia",
 "nacionalidad":"ecuatoriana", "numero_publicaciones": 100}
 
-# coleccion.insert_one(data_01)
+coleccion.insert_one(data_01)
 
 # proceso que agrega una lista de documentos
 lista = [
